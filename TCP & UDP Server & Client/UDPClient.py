@@ -3,8 +3,6 @@ import struct
 import argparse
 import time
 
-# Team Number = 6
-# python ClientUDP.py ServerIP/HostName 10016
 
 def packMessage(opCode, operand1, operand2, requestId):
     """Encodes a message to be sent to a server
