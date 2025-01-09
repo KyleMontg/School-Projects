@@ -5,8 +5,6 @@ import java.util.Random;
 import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 
-//Team Number 6
-//java client.java ServerIP/HostName 10016
 
 public class client {
     public static void main(String[] args) {
