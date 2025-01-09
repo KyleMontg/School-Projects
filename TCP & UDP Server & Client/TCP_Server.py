@@ -2,9 +2,6 @@ import socket
 import struct
 import argparse
 
-# Team Number = 6
-# python server.py 10016
-
 parser = argparse.ArgumentParser() # add a argument for running the file
 parser.add_argument('port', type=int) # port argument
 args = parser.parse_args()
